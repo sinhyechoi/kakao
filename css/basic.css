@@ -51,7 +51,7 @@ article { background:#fff; }
 article .box { padding:20px; }
 .article_head { overflow:hidden; padding-bottom:15px;}
 .article_head .profile { float:left; display:inline-block; width:40px; height:40px; text-indent:-9999px; border-radius:15px;
-    background-image:url('../img/character/character_20220531165306_96.png') ;
+    background-image:url('../img/character/character_20220531165245_96.png') ;
     background-size:cover; }
 .article_head .info { padding-left:48px; }
 .article_head .info strong { display:block; font-size:16px; line-height:24px;}
@@ -69,9 +69,9 @@ article .box { padding:20px; }
     inset:0;   /* margin설정, 안쪽으로 나 자신(꽉 차있는 상태)이 줄어들면서 표현*/
  } 
 
-.gnb_open { position:fixed; top:0; left:-304px; bottom:0; width:304px; background:#fff; overflow:hidden; z-index:101;  }
+.gnb_open { position:fixed; top:0; left:-304px; bottom:0; width:321px; background:#fff; overflow:hidden; z-index:101;  }
 .gnb_open .inner {  width:304px; height:100%; overflow-y:scroll; padding-right:17px; box-sizing:content-box; }
-.gnb_open img { width:100%; }
+.gnb_open img { width:100%; border-radius:15px; }
 
 
 .info_user { padding:35px 5px 24px 23px; overflow:hidden; }
